@@ -1,0 +1,23 @@
+/* Initial styling for Urdu text */
+.urdu-text {
+    display: inline;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+  }
+  
+  /* Initial styling for English text (hidden initially) */
+  .english-text {
+    display: inline;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+  }
+  
+  /* On hover: hide Urdu text and show English text */
+  .text-container:hover .urdu-text {
+    opacity: 0;
+  }
+  
+  .text-container:hover .english-text {
+    opacity: 1;
+  }
+  
